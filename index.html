@@ -1,0 +1,207 @@
+!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моє Портфоліо</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #e8f1ff;
+            color: #003366;
+        }
+
+        header {
+            background: #0057b8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ffd700;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            padding: 6px 12px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.15);
+        }
+
+        nav a {
+            color: #003366;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .login-btn {
+            background: #0057b8;
+            color: white;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .login-btn:hover {
+            background: #004a9e;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .about, .projects, .contact {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .project-card {
+            background: #f1f8ff;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 6px solid #0057b8;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer {
+            background: #0057b8;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        button {
+            background: #ffd700;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            color: #003366;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Моє Портфоліо</h1>
+    <p>Front-end / Web Developer</p>
+</header>
+
+<nav>
+    <div class="nav-item">
+        <a href="#about">Про мене</a>
+    </div>
+
+    <div class="nav-item">
+        <a href="#projects">Мої проєкти</a>
+    </div>
+
+    <div class="nav-item">
+        <a href="#contact">Контакти</a>
+    </div>
+</nav>
+
+<section id="about" class="about">
+    <h2>Про мене</h2>
+    <p>Привіт! Я веб-розробник, який створює красиві, швидкі та сучасні сайти. 
+       Працюю з HTML, CSS, JavaScript та іншими технологіями.</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Мої проєкти</h2>
+
+    <!-- ПРОЄКТ 1 -->
+    <div class="project-card">
+        <div>
+            <h3>Тетріс</h3>
+            <p>Тетріс — це гра, у якій фігури різної форми падають вниз, а гравець має складати їх у суцільні лінії, щоб вони зникали і приносили очки.</p>
+        </div>
+        <a href=https://ivan88228.github.io/88228.tetris/ class="login-btn">Увійти</a>
+    </div>
+
+    <!-- ПРОЄКТ 2 -->
+    <div class="project-card">
+        <div>
+            <h3>Сапер</h3>
+            <p>Логічна гра, у якій потрібно відкривати клітинки та, орієнтуючись на підказки-числа, уникати прихованих мін.</p>
+        </div>
+         <a href=https://ivan88228.github.io/88228.-engineer/ class="login-btn">Увійти</a>
+    </div>
+
+   <!-- ПРОЄКТ 3 -->
+    <div class="project-card">
+        <div>
+            <h3>Hollow Knight</h3>
+            <p>Атмосферний метроїдванія-екшн, у якому ти досліджуєш занепале підземне королівство, борючись із небезпечними істотами та розкриваючи його таємниці.</p>
+        </div>
+        <a href=https://ivan88228.github.io/Hollow-Knight/ class="login-btn">Увійти</a>
+    </div>
+ <!-- ПРОЄКТ 3 -->
+    <div class="project-card">
+        <div>
+            <h3>Hollow Knight: Silksong</h3>
+            <p>Динамічна метроїдванія, де хорнет долає небезпечні землі королівства Фарлум, здіймаючись до вершини, щоб розкрити свою загадкову долю..</p>
+        </div>
+<a href=https://ivan88228.github.io/Hollow-Knight-Silksong/ class="login-btn">Увійти</a>
+    </div>
+
+     <!-- ПРОЄКТ 3 -->
+    <div class="project-card">
+        <div>
+            <h3>Terraria</h3>
+            <p>Пригодницька sandbox-гра, де ти досліджуєш процедурний світ, видобуваєш ресурси, будуєш, борешся з ворогами та відкриваєш усе нові рівні можливостей..</p>
+        </div>
+    <a href="https://ivan88228.github.io/Terraria/" class="login-btn">Увійти</a>
+    </div>
+    
+</section>
+
+<section id="contact" class="contact">
+    <h2>Контакти</h2>
+    <p>Email: <b>example@gmail.com</b></p>
+    <p>Telegram: <b>@username</b></p>
+</section>
+
+<footer>
+    © 2025 Моє Портфоліо. Всі права захищені.
+</footer>
+
+<script>
+    function login() {
+        alert("Тут може бути форма входу. Хочеш, я її додам?");
+    }
+</script>
+
+</body>
+</html>
+
+
+
